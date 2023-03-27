@@ -1,6 +1,6 @@
 const hre = require("hardhat");
 
-const LOCK_ADDRESS = '0xA27d9C60B3a0194E30A62b6d32d6B2413852DD8B';
+const LOCK_ADDRESS = '';
 
 async function main() {
     const Lock = await hre.ethers.getContractFactory("Lock");
